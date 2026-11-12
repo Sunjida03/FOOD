@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>FoodieHub | Delicious Food Delivered Fast</title>
+
+<link rel="icon"
+href="favicon.png">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link rel="stylesheet"
+href="css/responsive.css">
+
+<!-- Google Font -->
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- Start Here -->
+<!-- ===================== NAVBAR START ===================== -->
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="#" class="logo">
+
+            🍔 FoodieHub
+
+        </a>
+
+        <nav class="navbar">
+
+            <ul class="nav-links">
+
+                <li><a href="#" class="active">Home</a></li>
+
+                <li><a href="#">Restaurants</a></li>
+
+                <li><a href="#">Menu</a></li>
+
+                <li><a href="#">Offers</a></li>
+
+                <li><a href="#">About</a></li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="nav-icons">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                type="text"
+                placeholder="Search food...">
+
+            </div>
+            <div class="menu-toggle">
+
+               <i class="fa-solid fa-bars"></i>
+
+            </div>
+            <a href="#">
+
+                <i class="fa-regular fa-heart"></i>
+
+            </a>
+
+            <a href="#" id="cartIcon" class="cart-icon">
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span id="cartCount">0</span>
+
+            </a>
+
+            <a href="#" class="login-btn">
+
+                Login
+
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ===================== NAVBAR END ===================== -->
+ <!-- ================= HERO SECTION START ================= -->
+
+<section class="hero">
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <span class="hero-tag">
+                🍔 #1 Food Delivery Platform
+            </span>
+
+            <h1>
+                Delicious Food,<br>
+                Delivered <span>Fast.</span>
+            </h1>
+
+            <p>
+                Discover your favorite meals from the best restaurants near you.
+                Fresh ingredients, fast delivery, and unforgettable taste.
+            </p>
+
+            <div class="hero-search">
+
+                <input
+                    type="text"
+                    placeholder="Search for food, restaurants...">
+
+                <button>
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+            </div>
+
+            <div class="hero-buttons">
+
+                <a href="#" class="order-btn">
+
+                    Order Now
+
+                </a>
+
+                <a href="#" class="menu-btn">
+
+                    Explore Menu
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img
+            src="images/banner/burger.png"
+            alt="Burger">
+
+            <div class="rating-card">
+
+                ⭐ 4.9 Rating
+
+            </div>
+
+            <div class="delivery-card">
+
+                🚚 Delivery in 25 Minutes
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= HERO SECTION END ================= -->
+ <!-- ================= FOOD CATEGORIES START ================= -->
+
+<section class="categories">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>🍽 Browse Categories</span>
+
+            <h2>Choose Your Favorite Food</h2>
+
+            <p>
+                Explore delicious dishes from different categories and order your
+                favorite meal with just one click.
+            </p>
+
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+
+                <img src="images/foods/burger.png" alt="Burger">
+
+                <h3>Burger</h3>
+
+                <p>25+ Items</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/foods/pizza.png" alt="Pizza">
+
+                <h3>Pizza</h3>
+
+                <p>18+ Items</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/foods/fried-chicken.png" alt="Fried Chicken">
+
+                <h3>Chicken</h3>
+
+                <p>30+ Items</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/foods/sushi.png" alt="Sushi">
+
+                <h3>Sushi</h3>
+
+                <p>15+ Items</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/foods/pasta.png" alt="Pasta">
+
+                <h3>Pasta</h3>
+
+                <p>20+ Items</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <img src="images/foods/coffee.png" alt="Coffee">
+
+                <h3>Coffee</h3>
+
+                <p>12+ Items</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOD CATEGORIES END ================= -->
+ <!-- ================= POPULAR FOODS START ================= -->
+
+<section class="popular-foods">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>🔥 Popular Foods</span>
+
+            <h2>Most Loved Dishes</h2>
+
+            <p>
+                Handpicked customer favorites prepared with fresh ingredients and
+                delivered to your doorstep.
+            </p>
+
+        </div>
+
+                <div class="food-grid" id="foodGrid">
+
+        </div>
+
+                <div class="food-content">
+
+                    <div class="food-rating">
+                        ⭐ 4.9
+                    </div>
+
+                    <h3>Fried Chicken</h3>
+
+                    <p>
+                        Crispy golden fried chicken served with special sauce.
+                    </p>
+ 
+                    <div class="food-footer">
+
+                        <span class="price">$10.99</span>
+
+                        <button class="cart-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Add
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= POPULAR FOODS END ================= -->
+ <!-- ================= FEATURED RESTAURANTS START ================= -->
+
+<section class="restaurants">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>🏪 Featured Restaurants</span>
+
+            <h2>Top Rated Restaurants</h2>
+
+            <p>
+                Discover the highest-rated restaurants serving delicious meals with
+                fast delivery and outstanding customer service.
+            </p>
+
+        </div>
+
+        <div class="restaurant-grid">
+
+            <!-- Restaurant 1 -->
+
+            <div class="restaurant-card">
+
+                <div class="restaurant-image">
+
+                    <img src="images/restaurants/restaurant-1.jpg"
+                         alt="Burger House">
+
+                </div>
+
+                <div class="restaurant-content">
+
+                    <h3>Burger House</h3>
+
+                    <p>
+                        🍔 Burgers • Fast Food
+                    </p>
+
+                    <div class="restaurant-info">
+
+                        <span>⭐ 4.9</span>
+
+                        <span>🕒 20-30 min</span>
+
+                    </div>
+
+                    <a href="#" class="restaurant-btn">
+                        View Menu
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Restaurant 2 -->
+
+            <div class="restaurant-card">
+
+                <div class="restaurant-image">
+
+                    <img src="images/restaurants/restaurant-2.jpg"
+                         alt="Italian Pizza">
+
+                </div>
+
+                <div class="restaurant-content">
+
+                    <h3>Italian Pizza</h3>
+
+                    <p>
+                        🍕 Pizza • Italian
+                    </p>
+
+                    <div class="restaurant-info">
+
+                        <span>⭐ 4.8</span>
+
+                        <span>🕒 25-35 min</span>
+
+                    </div>
+
+                    <a href="#" class="restaurant-btn">
+                        View Menu
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Restaurant 3 -->
+
+            <div class="restaurant-card">
+
+                <div class="restaurant-image">
+
+                    <img src="images/restaurants/restaurant-3.jpg"
+                         alt="Sushi World">
+
+                </div>
+
+                <div class="restaurant-content">
+
+                    <h3>Sushi World</h3>
+
+                    <p>
+                        🍣 Sushi • Japanese
+                    </p>
+
+                    <div class="restaurant-info">
+
+                        <span>⭐ 4.9</span>
+
+                        <span>🕒 30-40 min</span>
+
+                    </div>
+
+                    <a href="#" class="restaurant-btn">
+                        View Menu
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FEATURED RESTAURANTS END ================= -->
+ <!-- ================= SPECIAL OFFER START ================= -->
+
+<section class="offer">
+
+    <div class="container">
+
+        <div class="offer-wrapper">
+
+            <div class="offer-content">
+
+                <span class="offer-tag">
+                    🎉 Limited Time Offer
+                </span>
+
+                <h2>
+                    Get <span>50% OFF</span><br>
+                    On Your First Order
+                </h2>
+
+                <p>
+                    Enjoy delicious meals from your favorite restaurants with an
+                    exclusive discount. Hurry up before the offer expires!
+                </p>
+
+                <div class="countdown">
+
+                    <div class="time-box">
+
+                        <h3 id="days">00</h3>
+
+                        <span>Days</span>
+
+                    </div>
+
+                    <div class="time-box">
+
+                        <h3 id="hours">00</h3>
+
+                        <span>Hours</span>
+
+                    </div>
+
+                    <div class="time-box">
+
+                        <h3 id="minutes">00</h3>
+
+                        <span>Minutes</span>
+
+                    </div>
+
+                    <div class="time-box">
+
+                        <h3 id="seconds">00</h3>
+
+                        <span>Seconds</span>
+
+                    </div>
+
+                </div>
+
+                <a href="#" class="offer-btn">
+
+                    Order Now
+
+                </a>
+
+            </div>
+
+            <div class="offer-image">
+
+                <img src="images/banner/offer-burger.png"
+                     alt="Special Offer">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SPECIAL OFFER END ================= -->
+ <!-- ================= CUSTOMER REVIEWS START ================= -->
+
+<section class="reviews">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>⭐ Customer Reviews</span>
+
+            <h2>What Our Customers Say</h2>
+
+            <p>
+                Thousands of happy customers trust FoodieHub for delicious meals,
+                fast delivery, and excellent service.
+            </p>
+
+        </div>
+
+        <div class="review-grid">
+
+            <!-- Review Card 1 -->
+
+            <div class="review-card"> 
+
+                <div class="review-header">
+
+                    <img src="images/users/user-1.jpg" alt="Sarah">
+
+                    <div>
+
+                        <h3>Sarah Ahmed</h3>
+
+                        <span>Food Blogger</span>
+
+                    </div>
+
+                </div>
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+    
+                <p>
+                    The food arrived hot and fresh. The delivery was incredibly fast,
+                    and the quality exceeded my expectations. Highly recommended!
+                </p>
+
+            </div>
+
+            <!-- Review Card 2 -->
+
+            <div class="review-card">
+
+                <div class="review-header">
+
+                    <img src="images/users/user-2.jpg" alt="John">
+
+                    <div>
+
+                        <h3>John Smith</h3>
+
+                        <span>Regular Customer</span>
+
+                    </div>
+
+                </div>
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Amazing variety of restaurants and excellent customer service.
+                    Ordering food has never been this easy.
+                </p>
+
+            </div>
+
+            <!-- Review Card 3 -->
+
+            <div class="review-card">
+
+                <div class="review-header">
+
+                    <img src="images/users/user-3.jpg" alt="Emma">
+
+                    <div>
+
+                        <h3>Emma Wilson</h3>
+
+                        <span>Chef</span>
+
+                    </div>
+
+                </div>
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    Beautiful website, smooth ordering experience, and delicious food.
+                    Definitely one of the best food delivery platforms.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CUSTOMER REVIEWS END ================= -->
+ <!-- ================= NEWSLETTER START ================= -->
+
+<section class="newsletter">
+
+    <div class="container">
+
+        <div class="newsletter-box">
+
+            <div class="newsletter-content">
+
+                <span>📧 Stay Updated</span>
+
+                <h2>Subscribe To Our Newsletter</h2>
+
+                <p>
+                    Get exclusive offers, discount coupons, new menu updates,
+                    and exciting food deals directly in your inbox.
+                </p>
+
+            </div>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Enter your email address"
+                    required>
+
+                <button type="submit">
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= NEWSLETTER END ================= -->
+ <!-- ================= CART SIDEBAR START ================= -->
+
+<div class="cart-sidebar" id="cartSidebar">
+
+    <div class="cart-header">
+
+        <h2>Your Cart</h2>
+
+        <button id="closeCart">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems">
+
+        <p class="empty-cart">
+
+            Your cart is empty.
+
+        </p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>
+
+            Total :
+            <span id="cartTotal">$0.00</span>
+
+        </h3>
+
+        <button class="checkout-btn">
+
+            Checkout
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ================= CART SIDEBAR END ================= -->
+ <!-- ================= FOOTER START ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <!-- Column 1 -->
+
+            <div class="footer-col">
+
+                <a href="#" class="footer-logo">
+                    🍔 FoodieHub
+                </a>
+
+                <p>
+                    FoodieHub brings your favorite meals from the best restaurants
+                    directly to your doorstep with fast and reliable delivery.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                </div>
+
+            </div>
+
+            <!-- Column 2 -->
+
+            <div class="footer-col">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Restaurants</a></li>
+
+                    <li><a href="#">Menu</a></li>
+
+                    <li><a href="#">Offers</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+
+            <div class="footer-col">
+
+                <h3>Categories</h3>
+
+                <ul>
+
+                    <li><a href="#">Burger</a></li>
+
+                    <li><a href="#">Pizza</a></li>
+
+                    <li><a href="#">Chicken</a></li>
+
+                    <li><a href="#">Sushi</a></li>
+
+                    <li><a href="#">Coffee</a></li>
+
+                </ul>
+            </div>
+
+            <!-- Column 4 -->
+
+            <div class="footer-col">
+
+                <h3>Contact</h3>
+
+                <ul>
+
+                    <li><i class="fas fa-phone"></i> +880 1234-567890</li>
+
+                    <li><i class="fas fa-envelope"></i> support@foodiehub.com</li>
+
+                    <li><i class="fas fa-location-dot"></i> Dhaka, Bangladesh</li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 FoodieHub. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ================= FOOTER END ================= -->
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
